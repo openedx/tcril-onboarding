@@ -13,12 +13,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import datetime
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'tCRIL Onboarding'
-copyright = '2021, tCRIL'
+copyright = '{year}, tCRIL'.format(year=datetime.datetime.now().year)
 author = 'tCRIL'
 
 # The full version, including alpha/beta/rc tags
