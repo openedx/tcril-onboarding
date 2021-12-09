@@ -1,2 +1,2 @@
 # tCRIL Onboarding
-Onboarding Documentation for tCRIL
+The tcril-onbarding repository contains source files for the onboarding of new employees of tCRIL. This repository is managed by tCRIL.
