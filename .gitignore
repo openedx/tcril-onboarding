@@ -1,0 +1,30 @@
+# .gitignore for tcril-onboarding.
+
+### IDEs and text editors
+*~
+*.swp
+.idea/
+.project
+.pycharm_helpers/
+.pydevproject
+.vscode
+venv/
+
+### OS X artifacts
+*.DS_Store
+.AppleDouble
+:2e_*
+:2e#
+
+### Python artifacts
+*.pyc
+
+### Unknown artifacts
+build
+\#*\#
+.env/
+autodeploy.properties
+.ws_migrations_complete
+
+*.log
+*.swp
