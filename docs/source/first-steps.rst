@@ -11,11 +11,14 @@ Look for an email asking you to change your password that mentions “the Center
 for Reimagining Learning”. Submit a new password, and sign into your now
 accessible account.
 
-Jira/Confluence
+`Jira/Confluence <https://openedx.atlassian.net/jira/projects>`_
 ---------------
-Set up an account on Jira/Confluence via Google using your work email address.
-Verify your email address using the link sent from Jira. Use the grid of nine
-dots in the upper left corner to switch between Jira and Confluence.
+Set up an account with
+`Jira/Confluence <https://openedx.atlassian.net/jira/projects>`_ by clicking
+the sign-in icon in the top right, and setting up your account via Google
+using your tCRIL email address. Verify your email address using the link sent
+from Jira. Use the grid of nine dots in the upper left corner to switch between
+Jira and Confluence.
 
 discuss.openedx.org
 -------------------
