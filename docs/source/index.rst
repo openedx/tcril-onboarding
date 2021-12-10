@@ -3,18 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to tCRIL Onboarding's documentation!
-============================================
+Welcome to tCRIL's Onboarding Documentation!
+==========================================================
+
+**tCRIL** (/ti'krɪl/) stands for *the Center for Reimagining Learning* and is a
+nonprofit organization that maintains and develops the `Open edX Platform
+<https://open.edx.org/>`_. This documentation will serve as a guide to your
+first few days here.
 
 .. toctree::
+   first-steps
    :maxdepth: 2
    :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   
