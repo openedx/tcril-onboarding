@@ -15,7 +15,7 @@ accessible account.
 -----------------------------------------------------------------
 Set up an account with
 `Jira/Confluence <https://openedx.atlassian.net/jira/projects>`__ by clicking
-the sign-in icon in the top right, and setting up your account via Google
+the sign-in icon in the top right, and setting up your account via Google SSO
 using your tCRIL email address. Verify your email address using the link sent
 from Jira. Use the grid of nine dots in the upper left corner to switch between
 Jira and Confluence.
