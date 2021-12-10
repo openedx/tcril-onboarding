@@ -33,5 +33,5 @@ be getting many notifications a day and you’ll want them all in one place. Use
 the `GitHub email settings <https://github.com/settings/emails>`_ and the
 `GitHub notifications settings <https://github.com/settings/notifications>`_ to
 add your email address and change where the notifications go. Be sure to enable
-2 Factor Authorization within
+2 Factor Authentication within
 `GitHub Security Settings <https://github.com/settings/security>`_.
