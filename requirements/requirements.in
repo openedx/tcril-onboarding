@@ -1,5 +1,5 @@
 # Core dependencies for documentation builds
 
 sphinx                              # Documentation builder
-edx-sphinx-theme                    # edX theme for the generated documentation
+sphinx-rtd-theme                    # read-the-docs theme for the generated documentation
 pip-tools                           # Python requirements file management utilities

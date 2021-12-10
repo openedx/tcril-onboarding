@@ -14,7 +14,6 @@ import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import datetime
-import edx_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -33,7 +32,6 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'edx_theme'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,11 +48,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'edx_theme'
-html_theme_path = [edx_theme.get_html_theme_path()]
-html_favicon = os.path.join(
-    html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico'
-)
+html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
