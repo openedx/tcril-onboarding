@@ -13,6 +13,7 @@ first few days here.
 
 .. toctree::
    first-steps
+   open-edx-community
    :maxdepth: 2
    :caption: Contents:
    
