@@ -13,6 +13,7 @@ first few days here.
 
 .. toctree::
    first-steps
+   communication
    :maxdepth: 2
    :caption: Contents:
    
