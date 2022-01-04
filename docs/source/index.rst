@@ -13,7 +13,8 @@ first few days here.
 
 .. toctree::
    first-steps
+   open-edx-background
    communication
    :maxdepth: 2
    :caption: Contents:
-   
+
