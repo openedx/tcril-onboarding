@@ -15,6 +15,7 @@ first few days here.
    first-steps
    open-edx-background
    communication
+   coworkers
    :maxdepth: 2
    :caption: Contents:
 
