@@ -16,6 +16,7 @@ first few days here.
    open-edx-background
    communication
    coworkers
+   benefits
    :maxdepth: 2
    :caption: Contents:
 
