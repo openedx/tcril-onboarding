@@ -1,0 +1,28 @@
+name: Deprecation (DEPR) Ticket
+description: Per OEP-21, use this template to begin the technology deprecation process.
+title: "[DEPR]: <Technology Name>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Refer to [OEP-21](https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0021-proc-deprecation.html) for more detail on the deprecation and removal process
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status of this DEPR ticket
+      options:
+        - Proposed
+        - Communicated
+        - Accepted
+        - Deprecated
+        - Removing
+        - Removed
+      validations:
+        required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Explain, in a few sentences, why this technology should be removed - what's the usage pattern? What's wrong with keeping it around?
+    validations:
+      required: true
