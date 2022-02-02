@@ -1,0 +1,18 @@
+name: Add newly created DEPR tickets to the DEPR project board
+
+on:
+  issues:
+    types: [opened, labeled]
+env:
+  MY_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  assign_to_project:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Assign new issues to project
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: contains(github.event.issue.labels.*.name, 'DEPR')
+      with:
+        project: 'https://github.com/orgs/openedx/projects/9'
+        column_name: 'Proposed'
