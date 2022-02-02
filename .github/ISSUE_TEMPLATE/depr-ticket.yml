@@ -40,8 +40,8 @@ body:
     id: named-release-without
     attributes:
       label: First Open edX Named Release Without This Functionality
-      description: Named releases are generally CUT in early April and early October. Based on the above removal date, what named release would be the first without this code? Reach out to the Build Test Release working group if you're not sure.
-      placeholder: Nutmeg
+      description: Named releases are generally CUT in early April and early October. Based on the above removal date, what named release would be the first without this code? Please reach out to the Build Test Release working group (#wg-build-test-release in Slack) if you're not sure.
+      placeholder: Dogwood
     validations:
       required: true
   - type: textarea
