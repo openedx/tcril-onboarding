@@ -72,17 +72,17 @@ body:
       description: If you plan to mark the code for deprecation, explain how.
     validations:
       required: false
- - type: textarea
+  - type: textarea
     id: migration
     attributes:
       label: Migration
       description: If automated migration will be needed, explain your migration plan.
     validations:
       required: false
- - type: textarea
+  - type: textarea
     id: addl-info
     attributes:
       label: Additional Info
-      description: If there is any additional publicly shareable information or data from your earlier analysis, include that.
+      description: If there is any additional publicly sharable information or data from your earlier analysis, include that.
     validations:
       required: false
