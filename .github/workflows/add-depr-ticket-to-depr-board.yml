@@ -6,7 +6,7 @@
 name: Add newly created DEPR tickets to the DEPR project board
 on:
   issues:
-    types: [created]
+    types: [opened]
 jobs:
   track_pr:
     runs-on: ubuntu-latest
@@ -29,13 +29,6 @@ jobs:
               organization(login: $org){
                 projectNext(number: $number) {
                   id
-                  fields(first:20) {
-                    nodes {
-                      id
-                      name
-                      settings
-                    }
-                  }
                 }
               }
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
