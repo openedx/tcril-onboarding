@@ -1,7 +1,7 @@
 name: Add newly created DEPR tickets to the DEPR project board
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 jobs:
   track_pr:
     runs-on: ubuntu-latest
