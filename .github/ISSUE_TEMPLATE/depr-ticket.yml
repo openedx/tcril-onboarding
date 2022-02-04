@@ -7,17 +7,12 @@ body:
     attributes:
       value: |
         Refer to [OEP-21](https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0021-proc-deprecation.html) for more detail on the deprecation and removal process. This ticket should only be used for proposing the removal of an Open edX technology.
-  - type: dropdown
-    id: status
+  - type: input
+    id: todays-date
     attributes:
-      label: Status of this DEPR ticket
-      options:
-        - Proposed
-        - Communicated
-        - Accepted
-        - Deprecated
-        - Removing
-        - Removed
+      label: Proposal Date
+      description: The start date of this proposal (likely today)
+      placeholder: 29 February 2020
     validations:
       required: true
   - type: input
