@@ -29,6 +29,13 @@ jobs:
               organization(login: $org){
                 projectNext(number: $number) {
                   id
+                  fields(first:20) {
+                    nodes {
+                      id
+                      name
+                      settings
+                    }
+                  }
                 }
               }
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
