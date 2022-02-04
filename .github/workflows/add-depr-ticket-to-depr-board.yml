@@ -1,7 +1,12 @@
+# This workflow runs when a ticket is created. It checks if the ticket
+# has the "DEPR" label, and if so, adds it to the DEPR board.
+# The "DEPR" label is auto-applied to all tickets created using the
+# `depr-ticket` template.
+
 name: Add newly created DEPR tickets to the DEPR project board
 on:
   issues:
-    types: [labeled]
+    types: [created]
 jobs:
   track_pr:
     runs-on: ubuntu-latest
@@ -24,13 +29,6 @@ jobs:
               organization(login: $org){
                 projectNext(number: $number) {
                   id
-                  fields(first:20) {
-                    nodes {
-                      id
-                      name
-                      settings
-                    }
-                  }
                 }
               }
             }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
@@ -51,5 +49,3 @@ jobs:
                 }
               }
             }' -f project=$PROJECT_ID -f issue=$ISSUE_ID --jq '.data.addProjectNextItem.projectNextItem.id')"
-
-          echo 'ITEM_ID='$item_id >> $GITHUB_ENV
