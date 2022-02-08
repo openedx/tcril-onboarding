@@ -20,7 +20,7 @@ jobs:
           private_key: ${{ secrets.GRAPHQL_AUTH_APP_PEM }}
 
       - name: Get DEPR project ID
-        if: ${{ success() }}
+        if: contains(github.event.issue.labels.*.name, 'DEPR')
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           ORGANIZATION: openedx
@@ -38,7 +38,7 @@ jobs:
           echo 'PROJECT_ID='$(jq '.data.organization.projectNext.id' project_data.json) >> $GITHUB_ENV
 
       - name: Add DEPR issue to project
-        if: ${{ success() }}
+        if: contains(github.event.issue.labels.*.name, 'DEPR')
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           ISSUE_ID: ${{ github.event.issue.node_id }}
