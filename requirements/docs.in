@@ -2,4 +2,3 @@
 
 sphinx                              # Documentation builder
 sphinx-rtd-theme                    # read-the-docs theme for the generated documentation
-pip-tools                           # Python requirements file management utilities
