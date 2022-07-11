@@ -3,7 +3,7 @@ Communication
 
 Slack
 -----
-- Check your tCRIL email for an invitation or use this `invitation link <http://openedx-slack-invite.herokuapp.com/>`_.
+- Check your tCRIL email for an invitation or use this `invitation link <http://openedx.org/slack>`_.
 - Set up an account on Open edX slack using Google SSO (with your work email).
 - Set up an account, and complete Slack’s “Getting Started” module.
 
